@@ -1,0 +1,46 @@
+#capa img{
+    
+    border: solid 1px;
+}
+
+body {
+    background: url('imagens/fundo.png');
+    text-align: center;
+}
+#menu {
+    font-size: 2em;
+    list-style:none;
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+   
+    color: #333;
+    text-decoration: none;
+}
+#menu ul li a:hover {
+    background-color:rgb(109, 139, 56);
+    color: #6D6D6D;
+
+}
+#info {
+    font-style: italic;
+}
+#info p {
+    font-size: 30px;
+}
+#info img {
+    border: solid 1px;
+}
+#fotos img {
+    border: solid 1px;
+}
+#fotos p {
+    font-size: 30px;
+    font-style: italic;
+}
